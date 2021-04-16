@@ -2,7 +2,7 @@
   "name": "@samuelalsd/react-hooks",
   "version": "1.0.0",
   "description": "Custom react hooks to be used in my personal projects.",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
