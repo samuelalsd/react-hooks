@@ -26,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/samuelalsd/react-hooks/issues"
   },
-  "homepage": "https://github.com/samuelalsd/react-hooks#readme"
+  "homepage": "https://github.com/samuelalsd/react-hooks#readme",
+  "devDependencies": {}
 }
