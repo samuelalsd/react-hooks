@@ -40,7 +40,7 @@ async function request(instance, dispatch) {
     }
 }
 
-export default function useRequest(instance, options = {}) {
+export function useRequest(instance, options = {}) {
     const {
         throwError = true,
         initialState = {},
