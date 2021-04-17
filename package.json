@@ -13,9 +13,11 @@
   },
   "babel": {
     "presets": [
-      "@babel/preset-react"
+      "@babel/preset-env"
     ],
-    "plugins": []
+    "plugins": [
+      "@babel/plugin-proposal-nullish-coalescing-operator"
+    ]
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,7 +27,7 @@
     "type": "git",
     "url": "git+https://github.com/samuelalsd/react-hooks.git"
   },
-  "author": "Samuel Ali SAïd",
+  "author": "Samuel Ali Saïd",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/samuelalsd/react-hooks/issues"
@@ -33,6 +35,7 @@
   "homepage": "https://github.com/samuelalsd/react-hooks#readme",
   "devDependencies": {
     "@babel/core": "^7.13.15",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.13.8",
     "@babel/preset-env": "^7.13.15",
     "@babel/preset-react": "^7.13.13",
     "babel-cli": "^6.26.0",
