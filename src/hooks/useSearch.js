@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { arr2map, obj2map } from '../utils/utils'
+import { arr2map, obj2map } from '../libs/utils'
 
 const defaultParams = {
     match_type: 'exact',
