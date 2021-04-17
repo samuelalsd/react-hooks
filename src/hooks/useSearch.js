@@ -82,7 +82,7 @@ export function useSearch(searchableFields, collection) {
                         hits += matches[field] ? matches[field].length * weight : 0
                     }
 
-                    return prev?.[propName] ?? prev
+                    return prev?.[propName] || prev
                 }, obj)
         }
 
