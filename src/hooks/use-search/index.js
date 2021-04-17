@@ -1,1 +1,1 @@
-export { default } from './useSearch'
+export { useSearch } from './useSearch'
