@@ -1,6 +1,6 @@
 {
   "name": "@samuelalsd/react-hooks",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Custom react hooks to be used in my personal projects.",
   "main": "dist/index.js",
   "dependencies": {
