@@ -33,9 +33,25 @@ Object.defineProperty(exports, "useSearch", {
     return _useSearch.useSearch;
   }
 });
+Object.defineProperty(exports, "useKeyPress", {
+  enumerable: true,
+  get: function get() {
+    return _useKeyPress.useKeyPress;
+  }
+});
+Object.defineProperty(exports, "useDocumentTitle", {
+  enumerable: true,
+  get: function get() {
+    return _useDocumentTitle.useDocumentTitle;
+  }
+});
 
 var _useFormFields = require("./hooks/useFormFields");
 
 var _useRequest = require("./hooks/useRequest");
 
 var _useSearch = require("./hooks/useSearch");
+
+var _useKeyPress = require("./hooks/useKeyPress");
+
+var _useDocumentTitle = require("./hooks/useDocumentTitle");
