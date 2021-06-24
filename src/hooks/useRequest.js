@@ -58,7 +58,7 @@ export function useRequest(instance, options = {}) {
             const result = await request(() => instance(...args), dispatch)
 
             onSuccess?.(result)
-            Promise.resolve(result)
+            return Promise.resolve(result)
         } catch (error) {
             onFailure?.(error)
             if (throwError) return Promise.reject(error)
