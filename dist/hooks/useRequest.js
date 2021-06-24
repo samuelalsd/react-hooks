@@ -158,7 +158,7 @@ function useRequest(instance) {
             case 4:
               result = _context.sent;
               onSuccess === null || onSuccess === void 0 ? void 0 : onSuccess(result);
-              return _context.abrupt("return", Promise.resolve(result));
+              return _context.abrupt("return", result);
 
             case 9:
               _context.prev = 9;
